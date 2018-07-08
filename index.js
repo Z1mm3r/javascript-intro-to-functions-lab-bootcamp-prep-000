@@ -20,7 +20,7 @@ function logWhisper(string)
   console.log(whisper(string))
 }
 
-sayHiToGrandma(string)
+function sayHiToGrandma(string)
 {
   if(string.toLowerCase() === string)
   {
