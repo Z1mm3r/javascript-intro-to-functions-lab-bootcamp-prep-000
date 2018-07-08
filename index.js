@@ -9,3 +9,8 @@ function whisper(string)
   var output = string.toLowerCase()
   return output
 }
+
+function logShout(string)
+{
+  console.log(shout(string))
+}
